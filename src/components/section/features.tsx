@@ -52,11 +52,12 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ MyIcon, title, description, c
 const FeatureSection: React.FC = () => {
   const IconSize = 32
   return (
-    <Section bg={true}>
+    <Section bg={true} fixedHeight={true}>
       <Flex direction={'column'}
         justifyContent={'center'}
         alignItems={'center'}
         textAlign={'center'}
+        my={32}
       >
         <Stack direction={'column'} spacing={4} mb={16}>
           <Heading letterSpacing={'.2rem'} size={'md'}>WHAT I OFFER</Heading>

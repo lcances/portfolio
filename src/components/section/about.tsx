@@ -25,7 +25,7 @@ const AboutSection: React.FC = () => {
         </Box>
 
         <Stack spacing={4} mt={16} direction='row'>
-          <IconButton aria-label='github' size={'lg'} variant='ghost' icon={<AiFillGithub size={IconSize} />} />
+          <a href="https://github.com/lcances"><IconButton aria-label='github' size={'lg'} variant='ghost' icon={<AiFillGithub size={IconSize} />} /></a>
           <IconButton aria-label='github' size={'lg'} variant='ghost' icon={<AiFillMail size={IconSize} />} />
         </Stack>
 

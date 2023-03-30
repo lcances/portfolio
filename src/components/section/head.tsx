@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack, Flex, Box, Heading, Spacer, IconButton, Text, Wrap, WrapItem } from '@chakra-ui/react'
+import { Stack, Heading } from '@chakra-ui/react'
 import Section from '@/components/section'
 
 
